@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%) ;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.container{
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.card{
+    background-color:   hsl(216, 50%, 16%);
+border-radius: 15px;
+align-items: center;
+margin:2rem 1rem;
+padding: 20px;
+box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.75);
+}
+
+.card img{
+    border-radius: 12px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.view{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: none;
+}
+.view img{
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.view:hover{
+    display: block;
+    
+}
+
+.text a{
+    color: hsl(0, 0%, 100%) ;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.text a:hover{
+    color: hsl(178, 100%, 50%);
+}
+p{
+    color:  hsl(215, 51%, 70%);
+    font-size: 18px;
+    
+}
+
+.second-card img{
+    width: 6%;
+    display: block;
+    padding-right: 5px;
+}
+
+.second-card{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    padding-left: 0px;
+    justify-content: space-evenly;
+}
+#second-para{
+    color: hsla(178, 100%, 50%, 0.5);
+    font-weight: 600;
+    padding-right: 45px;
+}
+
+.third-card img{
+    width: 19%;
+   display: block;
+   
+}
+.third-card p{
+    
+    padding-left: 7px;
+}
+    
+.third-card{
+    display: flex;
+    align-items:baseline;
+    padding: 20px 0;
+    padding-left: 0px;
+    justify-content: space-evenly;
+}
+   
+
+hr{
+    border-color: hsl(215, 32%, 27%);
+    padding-bottom:0px;
+}
+
+
+.fourth-card{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.fourth-card img{
+    
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+
+   
+    
+}
+.fourth-card p a.name{
+    color: #FFF;
+    font-size: 16px;
+}
+
+.fourth-card p a.name:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+   
